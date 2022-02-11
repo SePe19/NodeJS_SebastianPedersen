@@ -1,0 +1,8 @@
+
+Maven           npm
+pom.xml         package.json
+
+meta-data       versions
+dependencies    dependencies
+build steps     scripts
+

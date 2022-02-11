@@ -42,7 +42,7 @@ const three = 98;
 
 // Show in the console the avg. with 5 decimals
 
-average = (one + two + three)/3;
+average = (one + two + three) / 3;
 
 console.log("Exercise 3:");
 console.log(average.toFixed(5));
@@ -68,7 +68,7 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-const capitalize = fact.replace("j","J");
+const capitalize = fact.replace("j", "J");
 
 console.log("Exercise 5:");
 console.log(capitalize);
