@@ -21,4 +21,13 @@ app.post("/mirror", (req, res) => {
 
 
 //app.listen ligger i bunden af filen
-app.listen(8080);
+const PORT = 8080;
+app.listen(PORT, (error) => {
+    // undefined if there is no error else error presents itself
+    console.log(error);
+    console.log("Server is running on port", PORT);
+});
+
+// How can I send data with a GET request???
+// path variable   url: /1
+// query string    url: ?key=value&key2=value2
