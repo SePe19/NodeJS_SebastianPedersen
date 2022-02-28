@@ -12,9 +12,6 @@ app.get("/bored", (req, res) => {
     res.sendFile(__dirname + "/public/activities.html");
 });
 
-
-
-
 app.listen(8080, () => {
     console.log("The server is running", 8080)
 });
